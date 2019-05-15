@@ -1,0 +1,15 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sam.myProjectApp.controller.Firstview" displayBlock="true">
+
+	<Shell id="shell">
+		<App id="first">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content><Button xmlns="sap.m" text="Login" id="btn_login" icon="sap-icon://accept" type="Emphasized" width="200px" press="doSomething"/>
+						
+						
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

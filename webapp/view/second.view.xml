@@ -1,0 +1,11 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="sam.myProjectApp.controller.second">
+	<App id="second">
+		<pages>
+			<Page title="Second">
+				<content>
+				    <Label text="This is a Second View" width="100%" id="label0"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
